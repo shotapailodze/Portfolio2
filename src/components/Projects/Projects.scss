@@ -1,0 +1,54 @@
+.coding-projects h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .project {
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            box-shadow: 10px 5px 30px rgba(0, 0, 0, 0.2);
+            width: 500px;
+            margin: 20px 20px;
+
+            p {
+                margin-top: -20px
+            }
+
+        img {
+            width: 500px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        button {
+            width: 100px;
+            margin-top: 10px;
+            border: solid 1px #E91E62;
+            border-radius: 20px;
+            background-color: #E91E62;
+            font-size: 16px;
+            color: white;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            transition: all .2s ease-in-out;
+          }
+    }
+
+    .project:hover {
+        transform: scale(1.1);
+        transition: all .5s ease-in-out;
+    }
+
+    
+}
